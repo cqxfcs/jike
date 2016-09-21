@@ -1,0 +1,12 @@
+.col{
+    -webkit-column-count:4;
+}
+
+.center{
+    width: 400px;
+    height: 400px;
+    background-color: gold;
+    display: -webkit-box;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+}

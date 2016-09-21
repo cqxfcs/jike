@@ -1,0 +1,90 @@
+body{
+    background-color: #0D7792;
+}
+.container{
+    width: 700px;
+    height:auto;
+    border-color: black;
+    background-color: white;
+    margin: 0 auto;
+}
+
+td{
+    font-size: 12px;
+}
+
+.topTable{
+    width: 700px;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+.middleTable{
+    width: 700px;
+    border-collapse: collapse;
+    border-color: #CCCCCC;
+}
+.information{
+    text-indent: 15px;
+    height: 20px;
+}
+
+.contact{
+    text-indent: 15px;
+    height: 20px;
+}
+
+.tutorInformation{
+    text-indent: 15px;
+    height: 20px;
+}
+
+.topFont{
+    color: #FF0099;
+}
+
+.firstsize{
+    font-weight: bolder;
+}
+
+.Font{
+    font-weight: bolder;
+    color: #0033AE;
+}
+
+.describe{
+    background-color: #F9F9F9;
+    text-align: center;
+    font-size: 12px;
+}
+.footFont{
+    font-size: 12px;
+
+    text-align: center;
+    width: 700px;
+}
+
+
+.navFont1{
+    border-top: none;
+    text-align: center;
+}
+
+.navFont{
+    float: right;
+    position: relative;
+    top: 60px;
+    right: 20px;
+}
+
+.bigContainer{
+    width: 800px;
+    background-color: white;
+    margin: 0 auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 40px;
+}
+
+

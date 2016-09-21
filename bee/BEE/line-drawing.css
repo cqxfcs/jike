@@ -1,0 +1,404 @@
+.bee-head {
+    /*蜜蜂头部样式*/
+    height: 150px;
+    width: 150px;
+    border: 5px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 274px;
+    left: 421px;
+}
+
+.eye {
+    height: 10px;
+    width: 7px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+
+.eye1 {
+    height: 10px;
+    width: 7px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: 90px;
+}
+
+.mouth {
+    height: 44px;
+    width: 100px;
+    border: 5px solid black;
+    border-top: none;
+    border-bottom-left-radius: 49px;
+    border-bottom-right-radius: 49px;
+    position: absolute;
+    top: 70px;
+    left: 20px;
+}
+
+.antenna1 {
+    /*蜜蜂触角*/
+    height: 50px;
+    width: 0px;
+    border: 3px solid black;
+    -webkit-transform: rotate(-30deg);
+    -moz-transform: rotate(-30deg);
+    -o-transform: rotate(-30deg);
+    -ms-transform: rotate(-30deg);
+    transform: rotate(-30deg);
+    position: absolute;
+    top: 225px;
+    left: 450px;
+}
+
+.antenna2 {
+    /*蜜蜂触角*/
+    height: 50px;
+    width: 0px;
+    border: 3px solid black;
+    -webkit-transform: rotate(30deg);
+    -moz-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    -o-transform: rotate(30deg);
+    transform: rotate(30deg);
+    position: absolute;
+    top: 222px;
+    left: 537px;
+}
+
+.spot1 {
+    /*蜜蜂触角的顶部*/
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 220px;
+    left: 432px;
+}
+
+.spot2 {
+    /*蜜蜂触角的顶部*/
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    top: 217px;
+    left: 549px;
+}
+
+.bee-body {
+    /*蜜蜂身体*/
+    width: 300px;
+    height: 200px;
+    border: 3px solid black;
+    border-radius: 105px;
+    position: relative;
+    right: 40px;
+    overflow: hidden;
+
+}
+
+.body-con {
+    /*蜜蜂身体的容器*/
+    width: 310px;
+    height: 220px;
+    position: absolute;
+    left: 565px;
+    top: 250px;
+    overflow: hidden;
+}
+
+.bee-body1 {
+    /*蜜蜂身体组合部分*/
+    width: 300px;
+    height: 200px;
+    border-right: 4px solid black;
+    border-radius: 105px;
+    position: absolute;
+    left: -261px;
+    top: 82px;
+
+}
+
+.bee-body1-con {
+    /*蜜蜂身体组合部分的容器*/
+    height: 300px;
+    width: 200px;
+    position: relative;
+    left: 564px;
+    top: 170px;
+    overflow: hidden;
+}
+
+
+
+.tattoo {
+    /*蜜蜂身体的条纹*/
+    width: 392px;
+    height: 410px;
+    border: 40px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: -140px;
+    left: -310px;
+}
+
+.tattoo1 {
+    /*蜜蜂身体的条纹*/
+    width: 385px;
+    height: 410px;
+    border: 40px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: -140px;
+    left: -210px;
+}
+
+.spine {
+    /*屁股上的刺*/
+    width: 0px;
+    height: 0px;
+    border-left: 40px solid black;
+    border-right: 40px solid white;
+    border-bottom: 40px solid white;
+    border-top: 40px solid white;
+    -webkit-transform: scaley(0.4);
+    -moz-transform: scaley(0.4);
+    -ms-transform: scaley(0.4);
+    -o-transform: scaley(0.4);
+    transform: scaley(0.4);
+    position: absolute;
+    left: 830px;
+    top: 314px;
+}
+
+.swing1 {
+    /*右翅膀*/
+    height: 250px;
+    width: 150px;
+    border: 4px solid black;
+    background-color: white;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 120px;
+    border-bottom-right-radius: 85%;
+    border-bottom-left-radius: 55%;
+    -webkit-transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    transform: rotate(15deg);
+    position: relative;
+    left: 107px;
+    top: 25px;
+    z-index: 1;
+}
+
+.swing2 {
+    /*左翅膀*/
+    height: 250px;
+    width: 150px;
+    border: 4px solid black;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 120px;
+    border-bottom-right-radius: 85%;
+    border-bottom-left-radius: 55%;
+    -webkit-transform: rotate(-15deg);
+    -moz-transform: rotate(-15deg);
+    -ms-transform: rotate(-15deg);
+    -o-transform: rotate(-15deg);
+    transform: rotate(-15deg);
+    position: relative;
+    left: 25px;
+    top: -239px;
+}
+
+.line {
+    width: 78px;
+    border: 2px solid black;
+    position: absolute;
+    top: 267px;
+    left: 674px;
+}
+
+.swing-con {
+    /*翅膀容器*/
+    height: 260px;
+    width: 470px;
+    overflow: hidden;
+    position: absolute;
+    left: 559px;
+    top: 8px;
+}
+
+.Container {
+    -webkit-animation: animations1 4s linear infinite;
+    -moz-animation: animations1 4s linear infinite;
+    -ms-animation: animations1 4s linear infinite;
+    -o-animation: animations1 4s linear infinite;
+    animation: animations1 4s linear infinite;
+}
+
+@-webkit-keyframes animations1 {
+    0% {
+        -webkit-transform: translate(0, 0);
+    }
+    12% {
+        -webkit-transform: translate(150px, 25px);
+    }
+    25% {
+        -webkit-transform: translate(250px, 50px);
+    }
+    38% {
+        -webkit-transform: translate(350px, 75px);
+    }
+    50% {
+        -webkit-transform: translate(450px, 0);
+    }
+    62% {
+        -webkit-transform: translate(350px, -25px);
+    }
+    75% {
+        -webkit-transform: translate(250px, -50px);
+    }
+    87% {
+        -webkit-transform: translate(150px, -75px);
+    }
+    100% {
+        -webkit-transform: translate(0, 0);
+    }
+}
+
+@-moz-keyframes animations1 {
+    0% {
+        -moz-transform: translate(0, 0);
+    }
+    12% {
+        -moz-transform: translate(150px, 25px);
+    }
+    25% {
+        -moz-transform: translate(250px, 50px);
+    }
+    38% {
+        -moz-transform: translate(350px, 75px);
+    }
+    50% {
+        -moz-transform: translate(450px, 0);
+    }
+    62% {
+        -moz-transform: translate(350px, -25px);
+    }
+    75% {
+        -moz-transform: translate(250px, -50px);
+    }
+    87% {
+        -moz-transform: translate(150px, -75px);
+    }
+    100% {
+        -moz-transform: translate(0, 0);
+    }
+}
+
+@-ms-keyframes animations1 {
+    0% {
+        -ms-transform: translate(0, 0);
+    }
+    12% {
+        -ms-transform: translate(150px, 25px);
+    }
+    25% {
+        -ms-transform: translate(250px, 50px);
+    }
+    38% {
+        -ms-transform: translate(350px, 75px);
+    }
+    50% {
+        -ms-transform: translate(450px, 0);
+    }
+    62% {
+        -ms-transform: translate(350px, -25px);
+    }
+    75% {
+        -ms-transform: translate(250px, -50px);
+    }
+    87% {
+        -ms-transform: translate(150px, -75px);
+    }
+    100% {
+        -ms-transform: translate(0, 0);
+    }
+}
+
+@-o-keyframes animations1 {
+    0% {
+        -o-transform: translate(0, 0);
+    }
+    12% {
+        -o-transform: translate(150px, 25px);
+    }
+    25% {
+        -o-transform: translate(250px, 50px);
+    }
+    38% {
+        -o-transform: translate(350px, 75px);
+    }
+    50% {
+        -o-transform: translate(450px, 0);
+    }
+    62% {
+        -o-transform: translate(350px, -25px);
+    }
+    75% {
+        -o-transform: translate(250px, -50px);
+    }
+    87% {
+        -o-transform: translate(150px, -75px);
+    }
+    100% {
+        -o-transform: translate(0, 0);
+    }
+}
+
+@keyframes animations1 {
+    0% {
+        transform: translate(0, 0);
+    }
+    12% {
+        transform: translate(150px, 25px);
+    }
+    25% {
+        transform: translate(250px, 50px);
+    }
+    38% {
+        transform: translate(350px, 75px);
+    }
+    50% {
+        transform: translate(450px, 0);
+    }
+    62% {
+        transform: translate(350px, -25px);
+    }
+    75% {
+        transform: translate(250px, -50px);
+    }
+    87% {
+        transform: translate(150px, -75px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+
+
+
+
+
+
+

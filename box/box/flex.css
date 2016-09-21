@@ -1,0 +1,25 @@
+.first{
+
+     background-color: red;
+    -webkit-box-flex: 1;
+    color: red;
+ }
+.second{
+
+    background-color: yellow;
+    -webkit-box-flex: 1;
+    color: yellow;
+}
+.third{
+
+    background-color: blue;
+    -webkit-box-flex: 1;
+    color: blue;
+}
+
+.container{
+    display: -webkit-box;
+    height: 500px;
+    width: 900px;
+    -webkit-box-orient: vertical;
+}

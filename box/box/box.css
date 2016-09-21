@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.xiezi{
+    height: 100px;
+    width: 100px;
+    background-color: darkcyan;
+    text-align: center;
+    line-height: 100px;
+}
+.hezi{
+    width: 100px;
+    height: 100px;
+    background-color: chartreuse;
+    padding: 10px;
+    /*margin: 100px;*/
+    border: black 5px solid;
+}
+.daizi{
+    width: 130px;
+    height: 130px;
+    background-color: purple;
+    margin: 100px;
+}
+
+.xiezi1{
+    height: 100px;
+    width: 100px;
+    background-color: darkcyan;
+    text-align: center;
+    line-height: 100px;
+}
+.hezi1{
+    width: 130px;
+    height: 130px;
+    background-color: chartreuse;
+    padding: 10px;
+    margin: 100px;
+    border: black 5px solid;
+    box-sizing: border-box;
+}

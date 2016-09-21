@@ -1,0 +1,13 @@
+.container{
+    display: -webkit-box;
+    -webkit-box-orient: horizontal;
+}
+.first{
+    -webkit-box-flex: 1;
+}
+.second{
+    -webkit-box-flex: 1;
+}
+.third{
+    -webkit-box-flex: 1;
+}

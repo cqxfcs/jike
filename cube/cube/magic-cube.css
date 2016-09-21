@@ -1,0 +1,166 @@
+.Container{
+    height: 300px;
+    width: 300px;
+    margin: 300px auto 0 auto;
+}
+
+.Box{
+    -webkit-transform-style: preserve-3d;
+    -webkit-animation-name: animations;
+    -webkit-animation-timing-function: cubic-bezier(1,1,1,1);
+    -webkit-animation-iteration-count:infinite;
+    -webkit-animation-duration: 6s;
+
+    -moz-transform-style: preserve-3d;
+    -moz-animation-name: animations;
+    -moz-animation-timing-function: cubic-bezier(1,1,1,1);
+    -moz-animation-iteration-count:infinite;
+    -moz-animation-duration: 6s;
+
+    -ms-transform-style: preserve-3d;
+    -ms-animation-name: animations;
+    -ms-animation-timing-function: cubic-bezier(1,1,1,1);
+    -ms-animation-iteration-count:infinite;
+    -ms-animation-duration: 6s;
+
+    -o-transform-style: preserve-3d;
+    -o-animation-name: animations;
+    -o-animation-timing-function: cubic-bezier(1,1,1,1);
+    -o-animation-iteration-count:infinite;
+    -o-animation-duration: 6s;
+
+    transform-style: preserve-3d;
+    animation-name: animations;
+    animation-timing-function: cubic-bezier(1,1,1,1);
+    animation-iteration-count:infinite;
+    animation-duration: 6s;
+}
+
+@-webkit-keyframes animations {
+    from { -webkit-transform: rotatex(0deg) rotateZ(0deg);  }
+    to { -webkit-transform: rotatex(360deg)  rotateZ(360deg);  }
+}
+
+@-moz-keyframes animations {
+    from { -moz-transform: rotatex(0deg) rotateZ(0deg);  }
+    to { -moz-transform: rotatex(360deg)  rotateZ(360deg);  }
+}
+
+@-ms-keyframes animations {
+    from { -ms-transform: rotatex(0deg) rotateZ(0deg);  }
+    to { -ms-transform: rotatex(360deg)  rotateZ(360deg);  }
+}
+
+@-o-keyframes animations {
+    from { -o-transform: rotatex(0deg) rotateZ(0deg);  }
+    to { -o-transform: rotatex(360deg)  rotateZ(360deg);  }
+}
+
+@keyframes animations {
+    from { transform: rotatex(0deg) rotateZ(0deg);  }
+    to { transform: rotatex(360deg)  rotateZ(360deg);  }
+}
+
+
+.Box .square1,.Box .square2,.Box .square3,.Box .square4,.Box .square5,.Box .square6{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+}
+
+.square1 div{
+    height: 100px;
+    width: 100px;
+    background-color: deeppink;
+    float: left;
+    border-radius: 20px;
+}
+
+.square2 div{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    float: left;
+    border-radius: 20px;
+}
+
+.square3 div{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    float: left;
+    border-radius: 20px;
+}
+
+.square4 div{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    float: left;
+    border-radius: 20px;
+}
+
+.square5 div{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    float: left;
+    border-radius: 20px;
+}
+
+.square6 div{
+    height: 100px;
+    width: 100px;
+    background-color: black;
+    float: left;
+    border-radius: 20px;
+}
+
+.square1 {
+    -webkit-transform: translateZ(150px);
+    -moz-transform: translateZ(150px);
+    -ms-transform: translateZ(150px);
+    -o-transform: translateZ(150px);
+    transform: translateZ(150px);
+}
+
+.square2 {
+    -webkit-transform:translateY(150px) rotateX(90deg);
+    -moz-transform:translateY(150px) rotateX(90deg);
+    -ms-transform:translateY(150px) rotateX(90deg);
+    -o-transform:translateY(150px) rotateX(90deg);
+    transform:translateY(150px) rotateX(90deg);
+}
+
+.square3 {
+    -webkit-transform: translateY(-150px) rotateX(90deg);
+    -moz-transform: translateY(-150px) rotateX(90deg);
+    -ms-transform: translateY(-150px) rotateX(90deg);
+    -o-transform: translateY(-150px) rotateX(90deg);
+    transform: translateY(-150px) rotateX(90deg);
+
+}
+
+.square4 {
+    -webkit-transform: translateZ(-150px);
+    -moz-transform: translateZ(-150px);
+    -ms-transform: translateZ(-150px);
+    -o-transform: translateZ(-150px);
+    transform: translateZ(-150px);
+}
+
+.square5 {
+    -webkit-transform: rotateY(90deg) translateZ(-150px);
+    -moz-transform: rotateY(90deg) translateZ(-150px);
+    -ms-transform: rotateY(90deg) translateZ(-150px);
+    -o-transform: rotateY(90deg) translateZ(-150px);
+    transform: rotateY(90deg) translateZ(-150px);
+}
+
+.square6 {
+    -webkit-transform: rotateY(90deg) translateZ(150px);
+    -moz-transform: rotateY(90deg) translateZ(150px);
+    -ms-transform: rotateY(90deg) translateZ(150px);
+    -o-transform: rotateY(90deg) translateZ(150px);
+    transform: rotateY(90deg) translateZ(150px);
+}

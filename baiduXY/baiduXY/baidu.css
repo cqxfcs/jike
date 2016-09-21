@@ -1,0 +1,462 @@
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    min-height: 580px;
+    min-width: 810px;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+
+.nav li {
+    list-style: none;
+    float: left;
+    padding: 0px 8px;
+    line-height: 30px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.nav-div {
+    float: left;
+    width: 480px;
+    height: 50px
+}
+
+li a {
+    color: black;
+}
+
+li a:hover {
+    color: blue;
+}
+
+.more p {
+    display: none;
+    position: fixed;
+    height: 100%;
+    text-align: center;
+    font-size: 13px;
+    top: 40px;
+    right: 5px;
+    background-color: #F9F9F9;
+    font-weight: normal;
+}
+
+.more:hover p {
+    display: block;
+}
+
+p a {
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.menu {
+    display: none;
+    position: fixed;
+    height: 100%;
+    text-align: center;
+    font-size: 13px;
+    top: 40px;
+    right: 80px !important;
+    background-color: white !important;
+}
+
+.font {
+    font-weight: normal;
+}
+
+.more .font2 {
+    background-color: #3388FF;
+    color: white;
+    font-weight: normal;
+    padding: 6px;
+    text-decoration: none;
+}
+
+.button {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    height: 36px;
+    border: 1px solid #38f;
+    background: #38f;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+
+}
+
+.input:focus {
+    border: 1px solid #4791FF;
+}
+
+.input:hover {
+    cursor: default;
+
+}
+
+.button:hover {
+    background: #317EF2;
+}
+
+.input {
+    width: 538px;
+    height: 32px;
+    border: 1px solid #ccc;
+    text-indent: 5px;
+    font-size: 17px;
+
+}
+
+.main {
+    width: 660px;
+    margin: auto
+}
+
+.qrcode1 {
+    float: left;
+}
+
+.qrcode2 {
+    float: left;
+}
+
+.right {
+    float: left;
+    width: 360px
+}
+
+.article {
+    text-align: center;
+    padding-top: 150px;
+    font-size: 0px;
+}
+
+.label {
+    display: inline-block;
+    vertical-align: middle;
+    width: 540px;
+    height: 36px;
+    position: relative
+}
+
+.footer {
+    position: absolute;
+    bottom: 50px;
+    width: 100%
+}
+
+.form {
+    width: 100%
+}
+
+/*......当屏幕宽度小于768px*/
+@media screen and (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+
+    .article {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+}
+
+/*......当屏幕宽度大于769px*/
+@media screen and (min-width: 769px) {
+    .page {
+        display: none;
+    }
+}
+
+/*......当屏幕宽度为320px到768px*/
+@media only screen and (min-width: 320px) and (max-width: 768px) {
+    body, p, div, ul, input, button {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        width: 100%;
+        background-color: #EEEFF0;
+    }
+
+    .page {
+        width: 100%;
+    }
+
+    .header {
+        padding-bottom: 10px;
+    }
+
+    .header-top {
+        height: 54px;
+        display: block;
+        background-color: #EEEFF0;
+    }
+
+    .weather {
+        display: inline-block;
+        position: relative;
+        top: 4px;
+        left: 3px;
+    }
+
+    .weather-num {
+        font-family: arial;
+        font-size: 20px;
+        color: #8c8c8c;
+        display: inline-block;
+        padding-left: 2px;
+        position: relative;
+        top: -4px;
+        left: -6px;
+    }
+
+    .weather-statu {
+        display: inline-block;
+        margin-left: -8px;
+    }
+
+    .weather-statu p {
+        font-family: Arial;
+        height: 13px;
+        line-height: 13px;
+        font-size: 11px;
+        color: #999;
+    }
+
+    .header-logo {
+        width: 100%;
+        height: 55px;
+        padding: 17px 0 15px;
+        text-align: center;
+        background-color: #EEEFF0;
+    }
+
+    .form {
+        height: 42px;
+        margin: 0px 10px;
+    }
+
+    .form button {
+        height: 42px;
+        width: 82px;
+        background-color: #38F;
+        border: 1px;
+        color: white;
+        font-size: 16px;
+        position: absolute;
+        float: left;
+        letter-spacing: -1px;
+    }
+
+    .input-div {
+        width: 100%;
+    }
+
+    .input-div input {
+        height: 38px;
+        width: 665px;
+        display: inline-block;
+        float: left;
+    }
+
+    .navs {
+        height: 42px;
+        margin: 17px 2% 14px 2%;
+        background-color: #EEEFF0;
+        overflow: hidden;
+    }
+
+    .navs a {
+        text-align: center;
+        width: 16%;
+        float: left;
+        color: #666;
+        font-size: 12px;
+        font-family: Arial;
+    }
+
+    .navs a i {
+        margin-bottom: 4px;
+        display: block;
+        height: 24px;
+    }
+
+    .news-i {
+        background: url("picture/xuebi.png");
+        background-repeat: no-repeat;
+        background-position: 36px -162px;
+    }
+
+    .novel-i {
+        background: url("picture/xuebi.png");
+        background-repeat: no-repeat;
+        background-position: 36px -7px;
+    }
+
+    .video-i {
+        background: url("picture/xuebi.png");
+        background-repeat: no-repeat;
+        background-position: 35px -100px;
+    }
+
+    .nuomi-i {
+        background: url("picture/xuebi.png");
+        background-repeat: no-repeat;
+        background-position: 34px -69px;
+    }
+
+    .map-i {
+        background: url("picture/xuebi.png");
+        background-repeat: no-repeat;
+        background-position: 34px -39px;
+    }
+
+    .more-i {
+        background: url("picture/xuebi.png");
+        background-repeat: no-repeat;
+        background-position: 34px -8px;
+    }
+
+    .MyNav {
+        margin-top: 8px;
+        background-color: #fff;
+    }
+
+    .title {
+        height: 40px;
+        margin: 2px 14px 0;
+    }
+
+    .title h4 {
+        font-weight: normal;
+        font-size: 15px;
+        line-height: 40px;
+        color: #999;
+    }
+
+    .content {
+        height: 84px;
+        margin-left: 80px;
+    }
+
+    .content a {
+        width: 25%;
+        height: 42px;
+        line-height: 42px;
+        display: block;
+        float: left;
+        font-size: 14px;
+    }
+
+    @font-face {
+        font-family: 'iconfont';
+        src: url('//at.alicdn.com/t/font_1467116710_6746583.eot'); /* IE9*/
+        src: url('//at.alicdn.com/t/font_1467116710_6746583.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('//at.alicdn.com/t/font_1467116710_6746583.woff') format('woff'), /* chrome、firefox */ url('//at.alicdn.com/t/font_1467116710_6746583.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/ url('//at.alicdn.com/t/font_1467116710_6746583.svg#iconfont') format('svg'); /* iOS 4.1- */
+    }
+
+    .iconfont {
+        font-family: "iconfont";
+        font-size: 30px;
+        color: #B6B7BA;
+        font-style: normal;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .hotspot {
+        margin-top: 8px;
+        background-color: #fff;
+    }
+
+    .hotspot-title {
+        height: 40px;
+        margin: -10px 14px 0;
+    }
+
+    .hotspot-title h4 {
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 40px;
+        color: #999;
+    }
+
+    .refresh {
+        position: absolute;
+        left: 630px;
+        top: 431px;
+        color: #262626;
+        font-size: 14px;
+    }
+
+    .hotspot-content {
+        width: 100%;
+        font-size: 14px;
+        margin-top: -5px;
+        padding: 0 14px;
+        text-align: left;
+    }
+
+    .hotspot-content li {
+        height: 42px;
+        width: 49%;
+        display: inline-block;
+        line-height: 42px;
+        color: #777;
+    }
+
+    .fyb {
+        border-top: 1px solid #f4f5f6;
+        text-align: right;
+        height: 44px;
+        line-height: 44px;
+    }
+
+    .fyb a {
+        padding-right: 75px;
+        font-family: Arial;
+        font-size: 14px;
+        color: #0058d2;
+    }
+
+    .card-manage {
+        text-align: center;
+        height: 45px;
+        margin-top: 30px;
+        background-color: #fff;
+        color: #333;
+        font-size: 14px;
+        line-height: 45px;
+    }
+
+    .bottom ul {
+        margin: 0px 28px;
+        list-style: none;
+    }
+
+    .bottom ul li {
+        height: 33px;
+        line-height: 33px;
+        text-align: left;
+        font-size: 13px;
+        color: #555;
+        font-family: Arial;
+    }
+
+}
+
+
+
+

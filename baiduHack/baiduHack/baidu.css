@@ -1,0 +1,129 @@
+
+ html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    min-height: 580px;
+    min-width: 810px;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+
+.nav li {
+    list-style: none;
+    float: left;
+    padding: 0px 8px;
+    line-height: 30px;
+    font-size: 13px;
+    font-weight: bold;
+    position: relative\9;
+}
+
+li a {
+    color: black;
+}
+
+li a:hover {
+    color: blue;
+}
+
+.more p {
+    display: none;
+    position: fixed;
+    height: 100%;
+    text-align: center;
+    font-size: 13px;
+    top: 40px;
+    right: 5px;
+    right: 0px\9;
+    background-color: #F9F9F9;
+    font-weight: normal;
+}
+
+.more:hover p {
+    display: block;
+}
+
+p a {
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+}
+
+.menu {
+    display: none;
+    position: fixed;
+    height: 100%;
+    text-align: center;
+    font-size: 13px;
+    top: 40px;
+    right: 80px !important;
+    right: 74px !important \9;
+    background-color: white !important;
+}
+
+.font {
+    font-weight: normal;
+}
+
+.more .font2 {
+    background-color: #3388FF;
+    color: white;
+    font-weight: normal;
+    padding: 6px;
+    text-decoration: none;
+}
+
+.button {
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: middle;
+    width: 100px;
+    height: 36px;
+    border: 1px solid #38f;
+    background: #38f;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    position: relative\9;
+    top: 1px\9;
+    [;position:relative;]/*safari hack*/
+     [;right:4px;]/*safari hack*/
+}
+
+.input:focus  {
+    border: 1px solid #4791FF;
+}
+
+.input:hover  {
+    cursor: default;
+
+}
+
+.button:hover {
+    background: #317EF2;
+}
+
+.input {
+    width: 538px;
+    height: 32px;
+    border: 1px solid #ccc;
+    text-indent: 5px;
+    font-size: 17px;
+    position: relative\9;
+    right: 7px;\9
+}
+
+.qrcode1 {
+    float: left;
+}
+
+.qrcode2 {
+    float: left;
+}
+
+

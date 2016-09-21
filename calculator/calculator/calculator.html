@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<link rel="stylesheet" href="calculator.css" type="text/css">
+<body>
+<div id="calculator">
+    <div id="calcu-head"><h6>简单的计算器</h6></div>
+    <form name="calculator" action="" method="get">
+        <div id="calcu-screen">
+            <!--显示器-->
+            <input type="text" name="numScreen" class="screen" value="0" onfocus="this.blur();" />
+        </div>
+        <div id="calcu-btn">
+            <ul> <!--配置按钮-->
+                <li onclick="enter(7)">7</li>
+                <li onclick="enter(8)">8</li>
+                <li onclick="enter(9)">9</li>
+                <li class="tool" onclick="del()">←</li>
+                <li class="tool" onclick="clearScreen()">C</li>
+                <li onclick="enter(4)">4</li>
+                <li onclick="enter(5)">5</li>
+                <li onclick="enter(6)">6</li>
+                <li class="tool"  onclick="multiply()">×</li>
+                <li class="tool" onclick="divide()">÷</li>
+                <li onclick="enter(1)">1</li>
+                <li onclick="enter(2)">2</li>
+                <li onclick="enter(3)">3</li>
+                <li class="tool" onclick="plus()">+</li>
+                <li class="tool" onclick="minus()">-</li>
+                <li onclick="enter(0)">0</li>
+                <li onclick="doubleZero()">00</li>
+                <li onclick="spot()">.</li>
+                <li class="tool" onclick="persent()">%</li>
+                <li class="tool" onclick="equal()">=</li>
+                <li class="tool" onclick="sin()">sin</li>
+                <li class="tool" onclick="cos()">cos</li>
+                <li class="tool" onclick="tan()">tan</li>
+                <li class="tool" onclick="lastbutone()">倒数</li>
+                <li class="tool" onclick="genhao()">√</li>
+            </ul>
+        </div>
+        <div id="calcu-foot">
+            <span id="note"></span>
+        </div>
+    </form>
+</div>
+<script src="calculator.js" type="text/javascript"></script>
+</body>
+</html>
